@@ -7,10 +7,6 @@ const app = new OpenAPIHono();
 
 app.use("/*", cors());
 
-app.get("/", (c) => {
-  return c.text("Hello Hono!");
-});
-
 app.openapi(petsRoute, (c) => {
   const { limit = 10, page = 1 } = c.req.valid("query");
 

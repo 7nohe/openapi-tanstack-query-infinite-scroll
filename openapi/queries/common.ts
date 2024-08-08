@@ -1,4 +1,4 @@
-// generated with @7nohe/openapi-react-query-codegen@1.5.0 
+// generated with @7nohe/openapi-react-query-codegen@1.5.1 
 
 import { UseQueryResult } from "@tanstack/react-query";
 import { DefaultService } from "../requests/services.gen";
